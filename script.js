@@ -34,7 +34,7 @@ const showPokemon = async () => {
      defense.textContent = data.stats[2].base_stat;
      sAtk.textContent = data.stats[3].base_stat;
      sDef.textContent = data.stats[4].base_stat;
-     speed.textContent = data.stats[5].base_stat;
+     spd.textContent = data.stats[5].base_stat;
 
      //Set Pokemon Types
      types.innerHTML = data.types.map(obj => 
